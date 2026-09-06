@@ -1,0 +1,34 @@
+name: Extract Senthan templates
+
+on:
+  push:
+    paths:
+      - 'senthan-co-templates.zip'
+      - '.github/workflows/extract-senthan-templates.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract templates into repository root
+        run: |
+          rm -rf .senthan-extract
+          mkdir .senthan-extract
+          unzip -o senthan-co-templates.zip -d .senthan-extract
+          cp -f .senthan-extract/*.html ./
+          rm -rf .senthan-extract
+          rm -f senthan-co-templates.zip
+          rm -f .github/workflows/extract-senthan-templates.yml
+      - name: Commit extracted templates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Extract Boutique & Fashion storefront templates"
+          git push
