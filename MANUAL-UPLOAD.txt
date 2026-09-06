@@ -1,0 +1,33 @@
+SENTHAN & CO — MANUAL GITHUB UPLOAD
+
+Repository: Senthan-X/boutique-and-fashion-templates
+Target branch: main
+
+This package contains the completed landing-page update and the real Maison,
+Atelier, and ECLAT template pages.
+
+UPLOAD STEPS
+
+1. Extract this ZIP on your device.
+2. Open the boutique-and-fashion-templates repository on GitHub.
+3. Select the main branch.
+4. Choose Add file > Upload files.
+5. Upload the extracted files and folders, preserving their names and paths.
+6. Commit directly to main with this message:
+   Publish Maison Atelier and ECLAT live builds
+
+IMPORTANT
+
+- Do not upload the ZIP itself as the website source.
+- Replace files when GitHub reports matching names.
+- Keep the .github/workflows/pages.yml path unchanged.
+- The large HTML files are self-contained and may take time to upload.
+
+KEY UPDATED FILES
+
+- index.html
+- maison-index.html
+- atelier-index.html
+- eclat-index.html
+- previews/eclat/index.html
+
