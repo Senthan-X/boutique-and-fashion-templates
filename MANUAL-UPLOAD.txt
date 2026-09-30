@@ -1,33 +1,24 @@
-SENTHAN & CO — MANUAL GITHUB UPLOAD
+SENTHAN & CO — BOUTIQUE & FASHION REPOSITORY NOTES
 
 Repository: Senthan-X/boutique-and-fashion-templates
-Target branch: main
+Default branch: main
 
-This package contains the completed landing-page update and the real Maison,
-Atelier, and ECLAT template pages.
+The repository contains the collection landing page and eight standalone storefront demos. Each demo is a self-contained HTML file with embedded imagery and inline CSS and JavaScript.
 
-UPLOAD STEPS
+PUBLISHING
 
-1. Extract this ZIP on your device.
-2. Open the boutique-and-fashion-templates repository on GitHub.
-3. Select the main branch.
-4. Choose Add file > Upload files.
-5. Upload the extracted files and folders, preserving their names and paths.
-6. Commit directly to main with this message:
-   Publish Maison Atelier and ECLAT live builds
+The GitHub Actions workflow at .github/workflows/pages.yml publishes the repository root to GitHub Pages when a commit is pushed to main. It can also be run manually from the Actions tab. Do not upload a ZIP as the Pages source.
 
-IMPORTANT
-
-- Do not upload the ZIP itself as the website source.
-- Replace files when GitHub reports matching names.
-- Keep the .github/workflows/pages.yml path unchanged.
-- The large HTML files are self-contained and may take time to upload.
-
-KEY UPDATED FILES
+CURRENT DEMO FILES
 
 - index.html
+- resole.html
+- maisonrue.html
+- baleyard.html
+- streetfixco.html
+- secondthread.html
 - maison-index.html
 - atelier-index.html
 - eclat-index.html
-- previews/eclat/index.html
 
+The collection supports English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili. Demo contact information is fictional sample data located in East Africa.

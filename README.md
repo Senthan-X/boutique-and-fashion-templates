@@ -1,40 +1,37 @@
-# Senthan & Co — Boutique & Fashion Collection
+# Senthan & Co — Boutique & Fashion Templates
 
-Three fashion-forward templates sharing one build system: dark/light-ready design language, self-contained HTML, no frameworks, no build step.
+A collection of eight self-contained storefront demos by Senthan & Co. Each template is a standalone HTML page with embedded imagery and inline CSS and JavaScript. The pages have no external runtime dependencies or build step.
 
-**Live demos (once GitHub Pages is enabled for this repo):**
+## Templates
 
-| Template | Direction | Demo URL |
+| Template | Direction | File |
 |---|---|---|
-| **Maison** | Editorial fashion commerce | `https://senthan-x.github.io/senthan-boutique-fashion-templates/#maison` |
-| **Atelier** | Refined luxury, product-led | `https://senthan-x.github.io/senthan-boutique-fashion-templates/#atelier` |
-| **ÉCLAT** | Contemporary, catalogue-first | `https://senthan-x.github.io/senthan-boutique-fashion-templates/#eclat` |
+| ReSole | Verified sneaker resale | [resole.html](resole.html) |
+| Maison Rue | Quiet luxury ready-to-wear | [maisonrue.html](maisonrue.html) |
+| Bale Yard | Graded wholesale bales | [baleyard.html](baleyard.html) |
+| Street Fix Co | Small-run streetwear | [streetfixco.html](streetfixco.html) |
+| Second Thread | Vintage and secondhand | [secondthread.html](secondthread.html) |
+| Maison | Editorial fashion commerce | [maison-index.html](maison-index.html) |
+| Atelier | Product-led luxury and studio imagery | [atelier-index.html](atelier-index.html) |
+| ÉCLAT | Contemporary, catalogue-first fashion | [eclat-index.html](eclat-index.html) |
 
-Root `index.html` is the collection landing page and links to each full template (`maison-index.html`, `atelier-index.html`, `eclat-index.html`).
+The root [index.html](index.html) is the collection landing page. It links to all eight demos and includes light/dark themes and language switching. The templates support English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili.
 
----
+## Preview and publishing
 
-## Status
+The GitHub Pages workflow is [`.github/workflows/pages.yml`](.github/workflows/pages.yml). It deploys the repository root on pushes to `main` and can also be started manually from GitHub Actions. When Pages is enabled for this repository, the collection landing page is served at:
 
-This collection is newly scaffolded. The landing page and file structure are in place. The three full single-file templates — imagery, copy, i18n, signature interactive feature — are still being built out. Each `*-index.html` is currently a placeholder page linking back to the collection.
+`https://senthan-x.github.io/boutique-and-fashion-templates/`
+
+Each template is available at its filename under that base URL, for example `/maison-index.html`.
 
 ## Structure
 
-```
-senthan-boutique-fashion-templates/
-├── index.html            <- landing page linking to all three
-├── README.md
-├── maison-index.html      <- Maison template (in progress)
-├── atelier-index.html     <- Atelier template (in progress)
-└── eclat-index.html       <- ÉCLAT template (in progress)
-```
-
-## Deploying to GitHub Pages
-
-1. In this repo's GitHub Settings → Pages, set the source branch to `main` and folder to `/ (root)`.
-2. GitHub will publish the site at `https://senthan-x.github.io/senthan-boutique-fashion-templates/` within a minute or two.
-3. Update a template later by replacing its `*-index.html` file with a new version (same filename) and pushing again — no other files need to change.
+- `index.html` — collection landing page
+- `*-index.html` and the named `.html` files above — standalone storefront demos
+- `previews/` — preview materials
+- `.github/workflows/pages.yml` — GitHub Pages deployment workflow
 
 ## Credits
 
-Built by **Senthan & Co** — jonathanrivers0414@gmail.com · +256 754 069 314
+Original templates by **Senthan & Co**. Contact information shown in demos is fictional sample data for East African locations.
