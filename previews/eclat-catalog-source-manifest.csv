@@ -1,0 +1,33 @@
+product_id,department,customer_name,price_usd,source_archive,source_path,embedded_format
+"CLO-A097","women","Coastal Pleat Legging",92,"01-clothing.zip","meison rue/feffc176eaa3434f9666b7c7804d46a9.jpg",WebP
+"CLO-A098","men","Fieldline Utility Jacket",148,"01-clothing.zip","meison rue/8893432e605843ce90ab491bcbba925c.jpg",WebP
+"CLO-A099","women","Rose Current Legging",78,"01-clothing.zip","meison rue/b24c2ebc37624e34ba77d1f6fd8bd9e3.jpg",WebP
+"CLO-A100","women","Copper Rib Legging",84,"01-clothing.zip","meison rue/52582c5de1af40498c24e516f0b8136b.jpg",WebP
+"CLO-A101","women","Blue Hour Track Pant",88,"01-clothing.zip","meison rue/668f9a3637d44bacb67daed1cc7ebe57.jpg",WebP
+"CLO-A102","men","Graphite Tailored Jean",112,"01-clothing.zip","meison rue/95faea948dc54265b8219169251e64e6.jpg",WebP
+"CLO-A103","women","Quiet Rhythm Legging",82,"01-clothing.zip","meison rue/42feebcd3581465c8f739b2ed050997b.jpg",WebP
+"CLO-A104","men","Moss Signal Hoodie",96,"01-clothing.zip","meison rue/7fa8eccea8d128b63c1abdf68d899b63.jpg",WebP
+"CLO-A105","men","Teal Loopback Crew",104,"01-clothing.zip","meison rue/98a9de258933c7ce91de736ce0856d57.jpg",WebP
+"CLO-A106","men","Shadow Print Pullover",126,"01-clothing.zip","meison rue/a0b32b3f2b6b512a003eeabf6d9f3a2b.jpg",WebP
+"SOL-A107","shoes","Cloudframe Runner",128,"02-soles.zip","Resole/20200716_173211849_iOS.jpg",WebP
+"SOL-A108","shoes","Signal Red Court Shoe",116,"02-soles.zip","Resole/20200716_173143791_iOS.jpg",WebP
+"SOL-A109","shoes","Nightline High Top",142,"02-soles.zip","Resole/20200716_164606190_iOS.jpg",WebP
+"SOL-A110","shoes","Trailmark Leather Boot",164,"02-soles.zip","Resole/20200716_172042469_iOS.jpg",WebP
+"SOL-A111","shoes","Monochrome Court Low",124,"02-soles.zip","Resole/20200716_171920950_iOS.jpg",WebP
+"SOL-A112","shoes","Slate Motion Runner",138,"02-soles.zip","Resole/CF6C5ABB-EC48-4CCB-B2E1-39B69AE81EA0.jpg",WebP
+"SOL-A113","shoes","Stonepath Runner",132,"02-soles.zip","Resole/20200716_164019268_iOS.jpg",WebP
+"SOL-A114","shoes","Studio Canvas Low",98,"02-soles.zip","Resole/20200716_171948462_iOS.jpg",WebP
+"SOL-A115","shoes","Glossline Mary Jane",168,"03-luxury.zip","5acddaaae2d41d7d1759c99ad0db8262.jpg",WebP
+"SOL-A116","shoes","Nocturne Patent Loafer",176,"03-luxury.zip","8cf7c057f4b9f9585b4a0d3e3efcb4e4.jpg",WebP
+"SOL-A117","shoes","Cinder Chain Loafer",158,"03-luxury.zip","4e6950d89d65014b7487f1b3433cfd7f.jpg",WebP
+"SOL-A118","shoes","Azure Gradient Derby",118,"03-luxury.zip","1e0ee31eeeefeeb53b307c931840072c.jpg",WebP
+"SOL-A119","shoes","Cognac Stitch Derby",172,"03-luxury.zip","a81b5931d4e51259ce971837c2674e87.jpg",WebP
+"SOL-A120","shoes","Ivory Double Strap Mule",182,"03-luxury.zip","904f82d95e84c702971617286f4e28b6.jpg",WebP
+"SOL-A121","shoes","Pale Form Mule",138,"03-luxury.zip","d908bbfd07819427dec2bf7b43505190.jpg",WebP
+"SOL-A122","shoes","Softline Leather Flat",146,"03-luxury.zip","83637d30d5b3c431946f8e31d9e83020.jpg",WebP
+"ACC-A123","accessories","Orbit Silver Pendant",58,"04-accessories.zip","accessories/84714fba0a355b6ffbe44279f800ba31.jpg",WebP
+"ACC-A124","accessories","Prism Frame Set",72,"04-accessories.zip","accessories/0c312a7607fe4ee7a43fdf598c9a4ed1.jpg",WebP
+"ACC-A125","accessories","Night Shift Crossbody",104,"04-accessories.zip","accessories/51444f7493bf153a404e776ce1ac6474.jpg",WebP
+"ACC-A126","accessories","Mono Dial Watch",88,"04-accessories.zip","accessories/5e7e13939a0bbdcb937d301c363aacef.jpg",WebP
+"ACC-A127","accessories","Tidal Link Bracelet",62,"04-accessories.zip","accessories/b8004eb8f799dbf817cb8bb5e2ba5465.jpg",WebP
+"ACC-A128","accessories","Clearline Optical Frame",76,"04-accessories.zip","accessories/89fd677f468be071355753d08359c3d6.jpg",WebP

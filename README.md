@@ -14,8 +14,9 @@ A collection of eight self-contained storefront demos by Senthan & Co. Each temp
 | Maison | Editorial fashion commerce | [maison-index.html](maison-index.html) |
 | Atelier | Product-led luxury and studio imagery | [atelier-index.html](atelier-index.html) |
 | ÉCLAT | Contemporary, catalogue-first fashion | [eclat-index.html](eclat-index.html) |
+| VANTA V4 | Modular streetwear and full catalog | [vanta-v4.html](vanta-v4.html) |
 
-The root [index.html](index.html) is the collection landing page. It links to all eight demos and includes light/dark themes and language switching. The templates support English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili.
+The root [index.html](index.html) is the collection landing page. It links to all nine demos and includes light/dark themes and language switching. The templates support English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili.
 
 ## Preview and publishing
 
@@ -23,13 +24,14 @@ The GitHub Pages workflow is [`.github/workflows/pages.yml`](.github/workflows/p
 
 `https://senthan-x.github.io/boutique-and-fashion-templates/`
 
-Each template is available at its filename under that base URL, for example `/maison-index.html`.
+Each template is available at its filename under that base URL, for example `/maison-index.html` or `/vanta-v4.html`.
 
 ## Structure
 
 - `index.html` — collection landing page
 - `*-index.html` and the named `.html` files above — standalone storefront demos
-- `previews/` — preview materials
+- `previews/` — current standalone ÉCLAT preview and selected-image source manifest
+- `legacy-index.html` — redirects older collection links to the current landing page
 - `.github/workflows/pages.yml` — GitHub Pages deployment workflow
 
 ## Credits
