@@ -1,24 +1,22 @@
-SENTHAN & CO — BOUTIQUE & FASHION REPOSITORY NOTES
+SENTHAN & CO — BOUTIQUE & FASHION · COLLECTION 01
 
 Repository: Senthan-X/boutique-and-fashion-templates
-Default branch: main
+Branch: main
 
-The repository contains the collection landing page and eight standalone storefront demos. Each demo is a self-contained HTML file with embedded imagery and inline CSS and JavaScript.
+The root index.html is the Collection 01 showcase for all twelve redesigned releases. It embeds the verified preview images and links to each standalone release page. Upload the twelve release HTML files and index.html to the repository root; preserve .github/workflows/pages.yml. GitHub Pages publishes from the repository root on main. Do not upload a ZIP as the Pages source.
 
-PUBLISHING
+RELEASE FILES
+- Morrow-and-Thread-v1.html (V1)
+- Atelier-v2-1.html (V2)
+- ECLAT-boutique-version-3.html (V3)
+- ROTATION-wardrobe-studio-v4.html (V4)
+- OFFDAY-boutique-version-5.html (V5)
+- urban-thread-v6.html (V6)
+- Morrow-House-V7.html (V7)
+- ECLAT-Boutique-Version-8.html (V8)
+- Fold-and-Form-Boutique-Version-9.html (V9)
+- AFTER-HOURS-Boutique-Version-10.html (V10)
+- CIVIL-Boutique-Version-11.html (V11)
+- CAVO-Boutique-and-Fashion-Version-12.html (V12)
 
-The GitHub Actions workflow at .github/workflows/pages.yml publishes the repository root to GitHub Pages when a commit is pushed to main. It can also be run manually from the Actions tab. Do not upload a ZIP as the Pages source.
-
-CURRENT DEMO FILES
-
-- index.html
-- resole.html
-- maisonrue.html
-- baleyard.html
-- streetfixco.html
-- secondthread.html
-- maison-index.html
-- atelier-index.html
-- eclat-index.html
-
-The collection supports English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili. Demo contact information is fictional sample data located in East Africa.
+All twelve pages are standalone, use embedded imagery and local scripts, and support EN, ES, FR, DE, PT, AR (RTL), ZH, and SW. Demo contacts are fictional and East African.

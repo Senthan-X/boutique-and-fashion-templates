@@ -1,39 +1,34 @@
-# Senthan & Co — Boutique & Fashion Templates
+# Senthan & Co — Boutique & Fashion Collection 01
 
-A collection of eight self-contained storefront demos by Senthan & Co. Each template is a standalone HTML page with embedded imagery and inline CSS and JavaScript. The pages have no external runtime dependencies or build step.
+A collection of twelve distinct fashion storefront templates by Senthan & Co. Each release is a self-contained HTML page with embedded WebP imagery, inline CSS and JavaScript, and no external runtime dependencies or build step.
 
-## Templates
+## Collection 01 releases
 
-| Template | Direction | File |
-|---|---|---|
-| ReSole | Verified sneaker resale | [resole.html](resole.html) |
-| Maison Rue | Quiet luxury ready-to-wear | [maisonrue.html](maisonrue.html) |
-| Bale Yard | Graded wholesale bales | [baleyard.html](baleyard.html) |
-| Street Fix Co | Small-run streetwear | [streetfixco.html](streetfixco.html) |
-| Second Thread | Vintage and secondhand | [secondthread.html](secondthread.html) |
-| Maison | Editorial fashion commerce | [maison-index.html](maison-index.html) |
-| Atelier | Product-led luxury and studio imagery | [atelier-index.html](atelier-index.html) |
-| ÉCLAT | Contemporary, catalogue-first fashion | [eclat-index.html](eclat-index.html) |
-| VANTA V4 | Modular streetwear and full catalog | [vanta-v4.html](vanta-v4.html) |
+| Release | Template | Direction | Live file |
+|---|---|---|---|
+| V1 | Morrow & Thread | Everyday wardrobe, full 92-piece catalog | [Morrow-and-Thread-v1.html](Morrow-and-Thread-v1.html) |
+| V2 | Atelier | Product-led studio fashion | [Atelier-v2-1.html](Atelier-v2-1.html) |
+| V3 | ÉCLAT | Contemporary luxury catalog | [ECLAT-boutique-version-3.html](ECLAT-boutique-version-3.html) |
+| V4 | ROTATION | Wardrobe studio | [ROTATION-wardrobe-studio-v4.html](ROTATION-wardrobe-studio-v4.html) |
+| V5 | OFFDAY | Relaxed everyday fashion | [OFFDAY-boutique-version-5.html](OFFDAY-boutique-version-5.html) |
+| V6 | Urban Thread | Streetwear | [urban-thread-v6.html](urban-thread-v6.html) |
+| V7 | Morrow House | Modern wardrobe | [Morrow-House-V7.html](Morrow-House-V7.html) |
+| V8 | ÉCLAT | Collection-led luxury | [ECLAT-Boutique-Version-8.html](ECLAT-Boutique-Version-8.html) |
+| V9 | Fold & Form | Wardrobe essentials | [Fold-and-Form-Boutique-Version-9.html](Fold-and-Form-Boutique-Version-9.html) |
+| V10 | After Hours | Evening fashion | [AFTER-HOURS-Boutique-Version-10.html](AFTER-HOURS-Boutique-Version-10.html) |
+| V11 | CIVIL | Contemporary fashion | [CIVIL-Boutique-Version-11.html](CIVIL-Boutique-Version-11.html) |
+| V12 | CAVO | Modern boutique | [CAVO-Boutique-and-Fashion-Version-12.html](CAVO-Boutique-and-Fashion-Version-12.html) |
 
-The root [index.html](index.html) is the collection landing page. It links to all nine demos and includes light/dark themes and language switching. The templates support English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili.
+The root [index.html](index.html) is the Collection 01 showcase. It presents all twelve releases in numeric order and uses each release's real hero image or typography-led hero treatment. Every template supports English, Spanish, French, German, Portuguese, Arabic with RTL, Chinese, and Swahili, plus light and dark themes.
 
 ## Preview and publishing
 
-The GitHub Pages workflow is [`.github/workflows/pages.yml`](.github/workflows/pages.yml). It deploys the repository root on pushes to `main` and can also be started manually from GitHub Actions. When Pages is enabled for this repository, the collection landing page is served at:
+The GitHub Actions workflow at [`.github/workflows/pages.yml`](.github/workflows/pages.yml) publishes the repository root to GitHub Pages on pushes to `main` and can also be run manually. The collection is served at:
 
-`https://senthan-x.github.io/boutique-and-fashion-templates/`
+<https://senthan-x.github.io/boutique-and-fashion-templates/>
 
-Each template is available at its filename under that base URL, for example `/maison-index.html` or `/vanta-v4.html`.
+Each release is available at its linked filename under that URL.
 
-## Structure
+## Credits and demo data
 
-- `index.html` — collection landing page
-- `*-index.html` and the named `.html` files above — standalone storefront demos
-- `previews/` — current standalone ÉCLAT preview and selected-image source manifest
-- `legacy-index.html` — redirects older collection links to the current landing page
-- `.github/workflows/pages.yml` — GitHub Pages deployment workflow
-
-## Credits
-
-Original templates by **Senthan & Co**. Contact information shown in demos is fictional sample data for East African locations.
+Original templates by **Senthan & Co**. All sample contact details are fictional and use East African locations.
